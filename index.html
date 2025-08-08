@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="products.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="images/amatemSoftgel.webp" type="image/x-icon">
+    <!-- <title>RedStore</title> -->
+</head>
+<body>
+
+    <!-- HomePage -->
+     <div class="home-page">
+        <title>RedStore</title>
+    <div class="header">
+    <div class="container">
+    <div class="navbar">
+        <div class="logo">
+            <img src="images/logo.png" width="125px">
+        </div>
+        <nav>
+            <ul id="menuItems">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Product</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Account</a></li>
+            </ul>
+        </nav>
+        <img src="images/cart.png" width="30px" height="30px">
+        <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+    </div>
+    <div class="row">
+        <div class="col-2">
+            <h1>Make a sick one very Healthy</h1>
+            <p>Give your patient all the healthcare you need. Health<br> is the only way to keep the body well and fine.</p>
+            <a href="" class="btn">Explore Now &#8594;</a>
+        </div>
+        <div class="col-2">
+            <img src="images/galleryOne.png">
+        </div>
+    </div>
+    </div>
+    </div>
+<!-------- Feautured Categories -------->
+ <div class="categories">
+    <div class="small-container">
+    <div class="row">
+        <div class="col-3">
+            <img src="images/galleryOne.png">
+        </div>
+        <div class="col-3">
+            <img src="images/galleryOne.png">
+        </div>
+        <div class="col-3">
+            <img src="images/galleryOne.png">
+        </div>
+    </div>
+    </div>
+
+ </div>
+<!-------- Feautured Products -------->
+<div class="small-container">
+    <h2 class="title">Feautured Products</h2>
+    <div class="row">
+        <div class="col-4">
+            <img src="https://kanozon.com/cdn/shop/products/La-tesen_372x.png?v=1651144401">
+            <h4>La Tesen Tablet by 12</h4>
+            <div class="available">Available</div>
+            <p>₦2500</p>
+        </div>
+        <div class="col-4">
+            <img src="images/galleryOne.png">
+            <h4>Monomin Syrup</h4>
+            <div class="available">Available</div>
+            <p>₦1800</p>
+        </div>
+        <div class="col-4">
+            <img src="images/galleryOne.png">
+            <h4>Funbact-A Cream</h4>
+            <div class="available">Available</div>
+            <p>₦2500</p>
+        </div>
+        <div class="col-4">
+            <img src="images/galleryOne.png">
+            <h4>Dr Wenger Syrup</h4>
+            <div class="available">Available</div>
+            <p>₦3000</p>
+        </div>
+    </div>
+
+    <h2 class="title">Choose Options</h2>
+    <div class="row">
+        <div class="col-4">
+            <img src="images/galleryOne.png" onclick="rowone()">
+            <h4>AntiMalaria</h4>
+            <div class="available">25 Available</div>
+            <p>₦800-₦5000</p>
+        </div>
+        <div class="col-4">
+            <img src="images/galleryOne.png">
+            <h4>Antifungal</h4>
+            <div class="available">12 Available</div>
+            <p>₦1000-₦5000</p>
+        </div>
+        <div class="col-4">
+            <img src="images/galleryOne.png">
+            <h4>Cough Syrup</h4>
+            <div class="available">12 Available</div>
+            <p>₦1000-₦5000</p>
+        </div>
+        <div class="col-4">
+            <img src="images/galleryOne.png">
+            <h4>Antiseptics</h4>
+            <div class="available">12 Available</div>
+            <p>₦1000-₦5000</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-4">
+            <img src="images/galleryOne.png">
+            <h4>Injections & Syringes</h4>
+            <div class="available">12 Available</div>
+            <p>₦1000-₦5000</p>
+        </div>
+        <div class="col-4">
+            <img src="images/galleryOne.png">
+            <h4>Water Bottles</h4>
+            <div class="available">12 Available</div>
+            <p>₦1000-₦5000</p>
+        </div>
+        <div class="col-4">
+            <img src="images/galleryOne.png">
+            <h4>Parfumes</h4>
+            <div class="available">12 Available</div>
+            <p>₦1000-₦5000</p>
+        </div>
+        <div class="col-4">
+            <img src="images/galleryOne.png">
+            <h4>Others</h4>
+            <div class="available">12 Available</div>
+            <p>₦1000-₦5000</p>
+        </div>
+    </div>
+</div>
+
+<!-------- Offer -------->
+<div class="offer">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-2">
+                <img src="images/amatemSoftgel.webp" class="offer-img" style="border: none;">
+            </div>
+            <div class="col-2">
+                <p>Exclusively Available on JLMMP</p>
+                <h1>Amatem Softgel Forte </h1>
+                <small>The Amatem Softgel made by Elbe is used to treat malaria and works faster as can be.It has a coat which makes a patient not to taste the drugs. </small>
+                <a href="" class="btn">Buy Now &#8594;</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Testimonial -->
+ <div class="testimonial">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-3">
+                <i class="fa fa-quote-left"></i>
+                <p>Lorem Ipsum is simply dummy text of printing and typesetting industry. Lorem Ipsum has beenthe industry`s standard dummy text ever</p>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <img src="images/user-1.png">
+                <h3>Godscovenant</h3>
+            </div>
+            <div class="col-3">
+                <i class="fa fa-quote-left"></i>
+                <p>Lorem Ipsum is simply dummy text of printing and typesetting industry. Lorem Ipsum has beenthe industry`s standard dummy text ever</p>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <img src="images/user-2.png">
+                <h3>Mike Smith</h3>
+            </div>
+            <div class="col-3">
+                <i class="fa fa-quote-left"></i>
+                <p>Lorem Ipsum is simply dummy text of printing and typesetting industry. Lorem Ipsum has beenthe industry`s standard dummy text ever</p>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <img src="images/user-3.png">
+                <h3>Mabel Joe</h3>
+            </div>
+        </div>
+    </div>
+ </div>
+
+ <!-- Brands -->
+  <div class="brands">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-5">
+                <img src="images/logo-godrej.png">
+            </div>
+            <div class="col-5">
+                <img src="images/logo-oppo.png">
+            </div>
+            <div class="col-5">
+                <img src="images/logo-coca-cola.png">
+            </div>
+            <div class="col-5">
+                <img src="images/logo-paypal.png">
+            </div>
+            <div class="col-5">
+                <img src="images/logo-philips.png">
+            </div>
+        </div>
+    </div>
+  </div>
+  <!-- Footer -->
+   <div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Download Our App</h3>
+                <p>Download App for Android and iOS mobile phone.</p>
+                <div class="app-logo">
+                    <img src="images/play-store.png">
+                    <img src="images/app-store.png">
+                </div>
+            </div>
+            <div class="footer-col-2">
+                <img src="images/logo-white.png">
+                <p>Our Purpose is to sustainably make the pleasure and benefits of drugs accessible to many.</p>
+            </div>
+            <div class="footer-col-3">
+                <h3>Useful Links</h3>
+                <ul>
+                    <li>Coupons</li>
+                    <li>Blog Post</li>
+                    <li>Return Policy</li>
+                    <li>Join Affiliate</li>
+                </ul>
+            </div>
+            <div class="footer-col-4">
+                <h3>Follow Us</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Twitter</li>
+                    <li>Instagram</li>
+                    <li>YouTube</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="Copyright">Copyright 2020 Godscovenant Codes</p>
+    </div>
+   </div>
+   </div>
+
+   <!-- Product Details  -->
+    <div class="product-details">
+    <div class="small-container">
+        <div class="row row-2">
+            <h2>Preview Tablet</h2>
+            <button class="btn back-btn" onclick="closepre()">Go Back</button>
+        </div>
+     </div>
+
+
+    <div class="small-container single-product">
+        <div class="row">
+            <div class="col-2">
+                <img src="images/gallery-1.jpg" width="100%" id="ProductImg">
+
+                <!-- <div class="small-img-row">
+                    <div class="small-img-col">
+                        <img src="images/gallery-1.jpg" width="100%" class="small-img">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="images/gallery-2.jpg" width="100%" class="small-img">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="images/gallery-3.jpg" width="100%" class="small-img">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="images/gallery-4.jpg" width="100%" class="small-img">
+                    </div>
+                </div> -->
+            </div>
+            <div class="col-2">
+                <p>Home / T-Shirt</p>
+                <h1 id="hidtitle">Red Printd T-Shirt by HRX</h1>
+                <h4 id="pricetag">$50.00</h4>
+                <!-- <select>
+                    <option>Select Size</option>
+                    <option>XXL</option>
+                    <option>XL</option>
+                    <option>Large</option>
+                    <option>Medium</option>
+                    <option>Small</option>
+                </select> -->
+                <!-- <input type="number" value="1"> -->
+
+        <div class="row but-row">
+            <button disabled="disabled" class="btn disable" id="disabut">-</button>
+        <button class="btn decrease" onclick="decreament()" id="disafo">-</button>
+        <h2 id="counting"></h2>
+        <button class="btn increase" onclick="increament()">+</button>
+    </div>
+
+                <a href="" class="btn">Add To Cart</a>
+
+                <h3>Product Details  <i class="fa fa-indent"></i></h3>
+                <br>
+                <p id="mrDetails">Give your Sumer Wardbrobe a style upgrade with the HRX Men`s Active T-Shirt. Team it with a pair of shorts for your morning workout or a denims for an evening out with the guys.</p>
+            </div>
+        </div>
+    </div>
+    
+  <!-- Footer -->
+   <div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Download Our App</h3>
+                <p>Download App for Android and iOS mobile phone.</p>
+                <div class="app-logo">
+                    <img src="images/play-store.png">
+                    <img src="images/app-store.png">
+                </div>
+            </div>
+            <div class="footer-col-2">
+                <img src="images/logo-white.png">
+                <p>Our Purpose is to sustainably make the pleasure and benefits of sports accessible to many.</p>
+            </div>
+            <div class="footer-col-3">
+                <h3>Useful Links</h3>
+                <ul>
+                    <li>Coupons</li>
+                    <li>Blog Post</li>
+                    <li>Return Policy</li>
+                    <li>Join Affiliate</li>
+                </ul>
+            </div>
+            <div class="footer-col-4">
+                <h3>Follow Us</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Twitter</li>
+                    <li>Instagram</li>
+                    <li>YouTube</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="Copyright">Copyright 2020 Godscovenant Codes</p>
+    </div>
+   </div>
+   </div>
+<!-- js for toggle menu -->
+ <script>
+    var menuItems = document.getElementById("menuItems");
+
+    menuItems.style.maxHeight = "0px";
+
+    function menutoggle() {
+        if(menuItems.style.maxHeight == "0px")
+    {
+        menuItems.style.maxHeight = "200px"
+    }
+    else
+    {
+        menuItems.style.maxHeight = "0px"
+    }
+    }
+ </script>
+
+ <!-- Js for product gallery -->
+  <script>
+    var ProductImg = document.getElementById("ProductImg");
+    var SmallImg = document.getElementsByClassName("small-img")
+
+    // SmallImg[0].onclick = function () 
+    // {
+    //     ProductImg.src = SmallImg[0].src;
+    // }
+    // SmallImg[1].onclick = function () 
+    // {
+    //     ProductImg.src = SmallImg[1].src;
+    // }
+    // SmallImg[2].onclick = function () 
+    // {
+    //     ProductImg.src = SmallImg[2].src;
+    // }
+    // SmallImg[3].onclick = function () 
+    // {
+    //     ProductImg.src = SmallImg[3].src;
+    // }
+  </script>
+  
+
+   <!-- Antimalaria -->
+    <div class="antimalaria">
+
+<div class="small-container">
+
+    <div class="row row-2">
+        <h2>AntiMalaria</h2>
+        <div>
+            <button class="btn back-btn" onclick="clomalaria()">Go Back</button>
+        </div>
+    </div>
+
+
+    <div class="row">
+        <div class="col-4"><img src="https://kanozon.com/cdn/shop/products/La-tesen_372x.png?v=1651144401" onclick="preMalOne()" id="fphotos"><h4 id="titlesOne" >La-Tesen by 12</h4><div class="available">Available</div><main id="detailsOne" style="display: none;">Made Available</main><p id="primalone">₦1500</p></div>
+        <div class="col-4" ><img src="https://allschoolabs.com/wp-content/uploads/2024/01/lynsunate-forte.jpg" onclick="preMalTwo()" id="fphotosone"><h4 id="titlesTwo">Lysunate Forte</h4><div class="available">Available</div><main id="detailsTwo" style="display: none;">Made Malaria</main><p id="primaltwo">₦3000</p></div>
+        <div class="col-4"><img src="https://medecify.com/storages/2021/01/amatem-forte-_artemetherlumefantrine_-80mg480mg-softgel-x6-1_umdqnl_865f4bd1-fbcb-478f-98f6-9d406c7123f5_600x.webp" onclick="preMalThree()" id="fphotostwo"><h4 id="titlesThree">Amatem Softgel Forte by 6</h4><div class="available">Available</div><main id="detailsThree" style="display: none;">Amatem</main><p id="primalthree">₦2800</p></div>
+        <div class="col-4"><img src="https://d3ckuu7lxvlwp2.cloudfront.net/products/10491670326141ba41cfadbproduct.webp" onclick="preMalFour()" id="fphotosthree"><h4 id="titlesFour">Lokmal Qs-Combi</h4><div class="available">Available</div><main id="detailsFour" style="display: none;">Lokmal</main><p id="primalfour">₦1800</p></div>
+  </div>
+
+    <div class="row">
+        <div class="col-4"><img src="https://airmedng.com/wp-content/uploads/2024/02/P-Alaxin-TS-.jpg" onclick="preMalFive()" id="fphotosfour"><h4 id="titlesFive">P-Alaxin TS</h4><div class="available">Available</div><main id="detailsFive" style="display: none;">P-alaxin</main><p id="primalfive">₦2200</p> </div>
+        <div class="col-4"><img src="https://www.geneithpharm.com/wp-content/uploads/2023/08/Coatal-Tablets-20-by-120-by-24-c-400x400.png" onclick="preMalSix()" id="fphotosfive"><h4 id="titlesSix">Coatal Tablets by 24</h4><div class="available">Available</div><main id="detailsSix" style="display: none;">Coatal</main><p id="primalsix">₦1000</p></div>
+        <div class="col-4"><img src="images/galleryOne.png" onclick="preMalSeven()" id="fphotossix"><h4 id="titlesSeven">Metherine Tablet</h4><div class="available">Available</div><main id="detailsSeven" style="display: none;">Metherine</main><p id="primalseven">₦1000</p></div>
+        <div class="col-4"><img src="images/galleryOne.png" onclick="preMalEight()" id="fphotosseven"><h4 id="titlesEight">Camosunate 1-6 Years</h4><div class="available">Available</div><main id="detailsEight" style="display: none;">Camosunate</main><p id="primaleight">₦1800</p></div>
+    </div>
+    <div class="row">
+        <div class="col-4"><img src="images/galleryOne.png" onclick="preMalNine()" id="fphotoseight"><h4 id="titlesNine">Arenax plus (4x6)</h4><div class="available">Available</div><main id="detailsNine" style="display: none;">Arenax</main><p id="primalnine">₦1200</p></div>
+        <div class="col-4"><img src="images/galleryOne.png" onclick="preMalTen()" id="fphotosnine"><h4 id="titlesTen">Lumareal 80/480</h4><div class="available">Available</div><main id="detailsTen" style="display: none;">Lumareal</main><p id="primalten">₦1000</p></div>
+        <div class="col-4"><img src="https://healthplusnigeria.com/cdn/shop/files/Amatem_20Softgel_2020-120mg_20Tablets_20x_2024.webp" onclick="preMalEleven()" id="fphotosten"><h4 id="titlesEleven">Amatem Softgel by 24</h4><div class="available">Available</div><main id="detailsEleven" style="display: none;">Amatem by 24</main><p id="primaleleven">₦2200</p></div>
+        <div class="col-4"><img src="https://kanozon.com/cdn/shop/products/1201933111_200x.jpg?v=1651059665" onclick="preMalTwelve()" id="fphotoseleven"><h4 id="titlesTwelve">Lonart-DS</h4><div class="available">Available</div><main id="detailsTwelve" style="display: none;">Lonart-DS</main><p id="primaltwelve">₦2800</p></div>
+   </div>
+   <div class="row">
+       <div class="col-4"><img src="images/galleryOne.png" onclick="preMalThirteen()" id="fphotostwelve"><h4 id="titlesThirteen">Kinotem Suspension</h4><div class="available">Available</div><main id="detailsThirteen" style="display: none;">Kinotem</main><p id="primalthirteen">₦2500</p></div>
+       <div class="col-4"><img src="images/galleryOne.png" onclick="preMalFourteen()" id="fphotosthirteen"><h4 id="titlesFourteen">P-Alaxin Suspension</h4><div class="available">Available</div><main id="detailsFourteen" style="display: none;">P-Alaxin susp</main><p id="primalfourteen">₦2500</p></div>
+       <div class="col-4"><img src="images/galleryOne.png" onclick="preMalFifteen()" id="fphotosfourteen"><h4 id="titlesFifteen">Lonart Suspension</h4><div class="available">Available</div><main id="detailsFifteen" style="display: none;">Lonart susp</main><p id="primalfifteen">₦2800</p></div>
+       <div class="col-4"><img src="images/galleryOne.png" onclick="preMalSixteen()" id="fphotosfifteen"><h4 id="titlesSixteen">Clartem Suspension</h4><div class="os">Out Of Stock</div><main id="detailsSixteen" style="display: none;">Clartem susp</main><p id="primalsixteen">₦2800</p></div>
+    </div>
+    <div class="row">
+       <div class="col-4"><img src="images/galleryOne.png" onclick="preMalSeventeen()" id="fphotossixteen"><h4 id="titlesSeventeen">Finetem Tablet by 6</h4><div class="available">Available</div><main id="detailsSeventeen" style="display: none;">Finetem</main><p id="primalseventeen">₦800</p></div>
+       <div class="col-4"><img src="images/galleryOne.png" onclick="preMalEighteen()" id="fphotosseventeen"><h4 id="titlesEighteen">Camosunate below 1 year</h4><div class="available">Available</div><main id="detailsEighteen" style="display: none;">Camusunate bel 1 yr</main><p id="primaleighteen">₦1500</p></div>
+       <div class="col-4"><img src="images/galleryOne.png" onclick="preMalNineteen()" id="fphotoseighteen"><h4 id="titlesNineteen">Camosunate 7-14 Years</h4><div class="os">Out Of Stock</div><main id="detailsNineteen" style="display: none;">Camosunate  7-14 yrs</main><p id="primalnineteen">₦1700</p></div>
+       <div class="col-4"><img src="images/galleryOne.png" onclick="preMalTwenty()" id="fphotosnineteen"><h4 id="titlesTwenty">Ecomal Tablets by 6</h4><div class="available">Available</div><main id="detailsTwenty" style="display: none;">Ecomal Tablet</main><p id="primaltwenty">₦800</p></div>
+    </div>
+    <div class="row">
+       <div class="col-4"><img src="images/galleryOne.png" onclick="preMalTone()" id="fphotostwenty"><h4 id="titlesTone">Shal`Artem by 24</h4><div class="available">Available</div><main id="detailsTone" style="display: none;">Shal`Artem by 24</main><p id="primaltone">₦1000</p></div>
+       <div class="col-4"><img src="images/galleryOne.png" onclick="preMalTtwo()" id="fphotostone"><h4 id="titlesTtwo">Shal`Artem by 6</h4><div class="available">Available</div><main id="detailsTtwo" style="display: none;">Shal`Artem by 6</main><p id="primalttwo">₦1400</p></div>
+       <div class="col-4"><img src="images/galleryOne.png" onclick="preMalTthree()" id="fphotosttwo"><h4 id="titlesTthree">Devarid Tablets by 6</h4><div class="available">Available</div><main id="detailsTthree" style="display: none;">Devarid Tablet</main><p id="primaltthree">₦1000</p></div>
+       <div class="col-4"><img src="images/galleryOne.png" onclick="preMalTfour()" id="fphotostthree"><h4 id="titlesTfour">Waipa ACT by 12</h4><div class="available">Available</div><main id="detailsTfour" style="display: none;">Waipa by 12</main><p id="primaltfour">₦2200</p></div>
+    </div>
+    <div class="row">
+       <div class="col-4"><img src="images/galleryOne.png" onclick="preMalTfive()" id="fphotostfour"><h4 id="titlesTfive">Swidar Tablet by 3</h4><div class="available">Available</div><main id="detailsTfive" style="display: none;">Swidar by 24</main><p id="primaltfive">₦1600</p></div>
+       <div class="col-4"><img src="images/galleryOne.png" onclick="preMalTsix()" id="fphotostfive"><h4 id="titlesTsix">P-Alaxin by 9</h4><div class="available">Available</div><main id="detailsTsix" style="display: none;">P-Alaxin by 9</main><p id="primaltsix">₦1900</p></div>
+       <div class="col-4"><img src="images/galleryOne.png" onclick="preMalTseven()" id="fphotostsix"><h4 id="titlesTseven">Maxiquine Tablets</h4><div class="available">Available</div><main id="detailsTseven" style="display: none;">Maxiquine Tablet</main><p id="primaltseven">₦1800</p></div>
+    </div>
+
+
+    <!-- <div class="page-btn">
+        <span class="activate">1</span>
+        <span>2</span>
+        <span>3</span>
+        <span>4</span>
+        <span>&#8594</span>
+    </div> -->
+    </div>
+
+ 
+  <!-- Footer -->
+   <div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Download Our App</h3>
+                <p>Download App for Android and iOS mobile phone.</p>
+                <div class="app-logo">
+                    <img src="images/play-store.png">
+                    <img src="images/app-store.png">
+                </div>
+            </div>
+            <div class="footer-col-2">
+                <img src="images/logo-white.png">
+                <p>Our Purpose is to sustainably make the pleasure and benefits of drugs accessible to many.</p>
+            </div>
+            <div class="footer-col-3">
+                <h3>Useful Links</h3>
+                <ul>
+                    <li>Coupons</li>
+                    <li>Blog Post</li>
+                    <li>Return Policy</li>
+                    <li>Join Affiliate</li>
+                </ul>
+            </div>
+            <div class="footer-col-4">
+                <h3>Follow Us</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Twitter</li>
+                    <li>Instagram</li>
+                    <li>YouTube</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="Copyright">Copyright 2020 Godscovenant Codes</p>
+    </div>
+   </div>
+    </div>
+<!-- js for toggle menu -->
+ <script>
+    var menuItems = document.getElementById("menuItems");
+
+    menuItems.style.maxHeight = "0px";
+
+    function menutoggle() {
+        if(menuItems.style.maxHeight == "0px")
+    {
+        menuItems.style.maxHeight = "200px"
+    }
+    else
+    {
+        menuItems.style.maxHeight = "0px"
+    }
+    }
+ </script>
+
+ <script src="script.js"></script>
+</body>
+</html>
