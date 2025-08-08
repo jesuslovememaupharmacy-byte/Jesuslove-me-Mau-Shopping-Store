@@ -1,0 +1,23 @@
+.home-page {
+    display: block;
+    transition: transform 0.5s;
+}
+.home-page.close {
+    display: none;
+}
+.antimalaria {
+    display: none;
+    transition: transform 0.5s;
+}
+.antimalaria.open {
+    display: block;
+}
+.header.change {
+    background: #fff;
+}
+.product-details {
+    display: none;
+}
+.product-details.open {
+    display: block;
+}
