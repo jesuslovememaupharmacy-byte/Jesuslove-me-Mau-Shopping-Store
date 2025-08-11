@@ -21,3 +21,9 @@
 .product-details.open {
     display: block;
 }
+.Cream {
+    display: none;
+}
+.Cream.open {
+    display: block;
+}
