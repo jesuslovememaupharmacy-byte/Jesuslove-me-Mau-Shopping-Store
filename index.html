@@ -67,7 +67,7 @@
     <h2 class="title">Feautured Products</h2>
     <div class="row">
         <div class="col-4">
-            <img src="https://kanozon.com/cdn/shop/products/La-tesen_372x.png?v=1651144401">
+            <img src="images/galleryOne.png">
             <h4>La Tesen Tablet by 12</h4>
             <div class="available">Available</div>
             <p>₦2500</p>
@@ -82,7 +82,7 @@
             <img src="images/galleryOne.png">
             <h4>Funbact-A Cream</h4>
             <div class="available">Available</div>
-            <p>₦2500</p>
+            <p>₦1000</p>
         </div>
         <div class="col-4">
             <img src="images/galleryOne.png">
@@ -96,7 +96,7 @@
     <div class="row">
         <div class="col-4">
             <img src="images/galleryOne.png" onclick="rowone()">
-            <h4>AntiMalaria</h4>
+            <h4 id="antim">AntiMalaria</h4>
             <div class="available">25 Available</div>
             <p>₦800-₦5000</p>
         </div>
@@ -107,10 +107,10 @@
             <p>₦1000-₦5000</p>
         </div>
         <div class="col-4">
-            <img src="images/galleryOne.png">
-            <h4>Cough Syrup</h4>
-            <div class="available">12 Available</div>
-            <p>₦1000-₦5000</p>
+            <img src="images/galleryOne.png" onclick="rowtwo()">
+            <h4 id="creamast">Cream</h4>
+            <div class="available">22 Available</div>
+            <p>₦800-₦1600</p>
         </div>
         <div class="col-4">
             <img src="images/galleryOne.png">
@@ -278,8 +278,8 @@
     <div class="product-details">
     <div class="small-container">
         <div class="row row-2">
-            <h2>Preview Tablet</h2>
-            <button class="btn back-btn" onclick="closepre()">Go Back</button>
+            <h2 id="blutitle">Preview Tablet</h2>
+            <button class="btn back-btn pre-close">Go Back</button>
         </div>
      </div>
 
@@ -305,8 +305,8 @@
                 </div> -->
             </div>
             <div class="col-2">
-                <p>Home / T-Shirt</p>
-                <h1 id="hidtitle">Red Printd T-Shirt by HRX</h1>
+                <p id="linkedout">Home / Drugs</p>
+                <h1 id="hidtitle">Amlong 10</h1>
                 <h4 id="pricetag">$50.00</h4>
                 <!-- <select>
                     <option>Select Size</option>
@@ -416,13 +416,118 @@
   </script>
   
 
-   <!-- Antimalaria -->
-    <div class="antimalaria">
+   <!-- Cream -->
+    <div class="Cream">
 
 <div class="small-container">
 
     <div class="row row-2">
-        <h2>AntiMalaria</h2>
+        <h2>Cream</h2>
+        <div>
+            <button class="btn back-btn" onclick="clocream()">Go Back</button>
+        </div>
+    </div>
+
+
+    <div class="row">
+        <div class="col-4"><img src="images/galleryOne.png" onclick="CREAM1()" id="fcretos"><h4 id="titlescreOne" >Acneaway Cream</h4><div class="available">Available</div><main id="detailscreOne" style="display: none;">Acneaway</main><p id="pricreone">₦800</p></div>
+        <div class="col-4" ><img src="images/galleryOne.png" onclick="CREAM2()" id="fcretosone"><h4 id="titlescreTwo">Aquasulf Ointment</h4><div class="available">Available</div><main id="detailscreTwo" style="display: none;">Aquasulf</main><p id="pricretwo">₦1000</p></div>
+        <div class="col-4"><img src="images/galleryOne.png" onclick="CREAM3()" id="fcretostwo"><h4 id="titlescreThree">Axoral Cream</h4><div class="available">Available</div><main id="detailscreThree" style="display: none;">Axoral Cream</main><p id="pricrethree">₦800</p></div>
+        <div class="col-4"><img src="images/galleryOne.png" onclick="CREAM4()" id="fcretosthree"><h4 id="titlescreFour">Bafama Cream</h4><div class="available">Available</div><main id="detailscreFour" style="display: none;">Bafama</main><p id="pricrefour">₦900</p></div>
+  </div>
+
+    <div class="row">
+        <div class="col-4"><img src="images/galleryOne.png" onclick="CREAM5()" id="fcretosfour"><h4 id="titlescreFive">Bicoten Cream</h4><div class="available">Available</div><main id="detailscreFive" style="display: none;">Bicoten Cream</main><p id="pricrefive">₦1400</p> </div>
+        <div class="col-4"><img src="images/galleryOne.png" onclick="CREAM6()" id="fcretosfive"><h4 id="titlescreSix">Defacto Cream</h4><div class="available">Available</div><main id="detailscreSix" style="display: none;">Defacto Cream</main><p id="pricresix">₦900</p></div>
+        <div class="col-4"><img src="images/galleryOne.png" onclick="CREAM7()" id="fcretossix"><h4 id="titlescreSeven">Fevicid Cream</h4><div class="available">Available</div><main id="detailscreSeven" style="display: none;">Fevicid</main><p id="pricreseven">₦1000</p></div>
+        <div class="col-4"><img src="images/galleryOne.png" onclick="CREAM8()" id="fcretosseven"><h4 id="titlescreEight">Funbact A cream</h4><div class="available">Available</div><main id="detailscreEight" style="display: none;">Funbact A</main><p id="pricreeight">₦1000</p></div>
+    </div>
+
+    <div class="row">
+        <div class="col-4"><img src="images/galleryOne.png" onclick="CREAM9()" id="fcretoseight"><h4 id="titlescreNine">G-Derm Cream</h4><div class="available">Available</div><main id="detailscreNine" style="display: none;">G-Derm</main><p id="pricrenine">₦1000</p></div>
+        <div class="col-4"><img src="images/galleryOne.png" onclick="CREAM10()" id="fcretosnine"><h4 id="titlescreTen">Glaxten Cream</h4><div class="available">Available</div><main id="detailscreTen" style="display: none;">Glaxten</main><p id="pricreten">₦800</p></div>
+        <div class="col-4"><img src="images/galleryOne.png" onclick="CREAM11()" id="fcretosten"><h4 id="titlesEleven">Hydrocortisone Cream</h4><div class="available">Available</div><main id="detailscreEleven" style="display: none;">Hydrocortisone</main><p id="pricreeleven">₦1600</p></div>
+        <div class="col-4"><img src="images/galleryOne.png" onclick="CREAM12()" id="fcretoseleven"><h4 id="titlescreTwelve">Ketacon Cream</h4><div class="available">Available</div><main id="detailscreTwelve" style="display: none;">Ketacon</main><p id="pricretwelve">₦800</p></div>
+     </div>
+   <div class="row">
+       <div class="col-4"><img src="images/galleryOne.png" onclick="CREAM13()" id="fcretostwelve"><h4 id="titlescreThirteen">Ketoconazole (Fortune)</h4><div class="available">Available</div><main id="detailscreThirteen" style="display: none;">Ketoconazole (Fortune)</main><p id="pricrethirteen">₦0000</p></div>
+       <div class="col-4"><img src="images/galleryOne.png" onclick="CREAM14()" id="fcretosthirteen"><h4 id="titlescreFourteen">Ketofung Cream</h4><div class="available">Available</div><main id="detailscreFourteen" style="display: none;">Ketofung Cream</main><p id="pricrefourteen">₦1500</p></div>
+       <div class="col-4"><img src="images/galleryOne.png" onclick="CREAM15()" id="fcretosfourteen"><h4 id="titlescreFifteen">Ketoral Cream</h4><div class="available">Available</div><main id="detailscreFifteen" style="display: none;">Ketoral Cream</main><p id="pricrefifteen">₦1000</p></div>
+       <div class="col-4"><img src="images/galleryOne.png" onclick="CREAM16()" id="fcretosfifteen"><h4 id="titlescreSixteen">Mycoten Cream</h4><div class="os">Out Of Stock</div><main id="detailscreSixteen" style="display: none;">Mycoten Cream</main><p id="pricresixteen">₦0000</p></div>
+    </div>
+
+    <div class="row">
+       <div class="col-4"><img src="images/galleryOne.png" onclick="CREAM17()" id="fcretossixteen"><h4 id="titlescreSeventeen">Neoskin Cream</h4><div class="available">Available</div><main id="detailscreSeventeen" style="display: none;">Neoskin Cream</main><p id="pricreseventeen">₦1000</p></div>
+       <div class="col-4"><img src="images/galleryOne.png" onclick="CREAM18()" id="fcretosseventeen"><h4 id="titlescreEighteen">Repnotan Cream</h4><div class="available">Available</div><main id="detailscreEighteen" style="display: none;">Repnotan Cream</main><p id="pricreeighteen">₦1000</p></div>
+       <div class="col-4"><img src="images/galleryOne.png" onclick="CREAM19()" id="fcretoseighteen"><h4 id="titlescreNineteen">Tribact Cream</h4><div class="available">Available</div><main id="detailscreNineteen" style="display: none;">Tribact Cream</main><p id="pricrenineteen">₦1000</p></div>
+       <div class="col-4"><img src="images/galleryOne.png" onclick="CREAM20()" id="fcretosnineteen"><h4 id="titlescreTwenty">Tribotan Cream</h4><div class="available">Available</div><main id="detailscreTwenty" style="display: none;">Tribotan Cream</main><p id="pricretwenty">₦0000</p></div>
+    </div>
+
+    <div class="row">
+       <div class="col-4"><img src="images/galleryOne.png" onclick="CREAM21()" id="fcretostwenty"><h4 id="titlescreTone">Vista Plus Cream</h4><div class="available">Available</div><main id="detailscreTone" style="display: none;">Visita Plus Cream</main><p id="pricretone">₦1000</p></div>
+       <div class="col-4"><img src="images/galleryOne.png" onclick="CREAM22()" id="fcretostone"><h4 id="titlescreTtwo">VixaSkineal Cream</h4><div class="available">Available</div><main id="detailscreTtwo" style="display: none;">VixaSkineal Cream</main><p id="pricrettwo">₦1600</p></div>
+        </div>
+
+
+    <!-- <div class="page-btn">
+        <span class="activate">1</span>
+        <span>2</span>
+        <span>3</span>
+        <span>4</span>
+        <span>&#8594</span>
+    </div> -->
+    </div>
+
+ 
+  <!-- Footer -->
+   <div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Download Our App</h3>
+                <p>Download App for Android and iOS mobile phone.</p>
+                <div class="app-logo">
+                    <img src="images/play-store.png">
+                    <img src="images/app-store.png">
+                </div>
+            </div>
+            <div class="footer-col-2">
+                <img src="images/logo-white.png">
+                <p>Our Purpose is to sustainably make the pleasure and benefits of drugs accessible to many.</p>
+            </div>
+            <div class="footer-col-3">
+                <h3>Useful Links</h3>
+                <ul>
+                    <li>Coupons</li>
+                    <li>Blog Post</li>
+                    <li>Return Policy</li>
+                    <li>Join Affiliate</li>
+                </ul>
+            </div>
+            <div class="footer-col-4">
+                <h3>Follow Us</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Twitter</li>
+                    <li>Instagram</li>
+                    <li>YouTube</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="Copyright">Copyright 2020 Godscovenant Codes</p>
+    </div>
+   </div>
+    </div>
+
+    <!-- antimalaria -->
+
+        <div class="antimalaria">
+
+<div class="small-container">
+
+    <div class="row row-2">
+        <h2>AntiMalaria<h2>
         <div>
             <button class="btn back-btn" onclick="clomalaria()">Go Back</button>
         </div>
@@ -430,23 +535,23 @@
 
 
     <div class="row">
-        <div class="col-4"><img src="https://kanozon.com/cdn/shop/products/La-tesen_372x.png?v=1651144401" onclick="preMalOne()" id="fphotos"><h4 id="titlesOne" >La-Tesen by 12</h4><div class="available">Available</div><main id="detailsOne" style="display: none;">Made Available</main><p id="primalone">₦1500</p></div>
-        <div class="col-4" ><img src="https://allschoolabs.com/wp-content/uploads/2024/01/lynsunate-forte.jpg" onclick="preMalTwo()" id="fphotosone"><h4 id="titlesTwo">Lysunate Forte</h4><div class="available">Available</div><main id="detailsTwo" style="display: none;">Made Malaria</main><p id="primaltwo">₦3000</p></div>
-        <div class="col-4"><img src="https://medecify.com/storages/2021/01/amatem-forte-_artemetherlumefantrine_-80mg480mg-softgel-x6-1_umdqnl_865f4bd1-fbcb-478f-98f6-9d406c7123f5_600x.webp" onclick="preMalThree()" id="fphotostwo"><h4 id="titlesThree">Amatem Softgel Forte by 6</h4><div class="available">Available</div><main id="detailsThree" style="display: none;">Amatem</main><p id="primalthree">₦2800</p></div>
-        <div class="col-4"><img src="https://d3ckuu7lxvlwp2.cloudfront.net/products/10491670326141ba41cfadbproduct.webp" onclick="preMalFour()" id="fphotosthree"><h4 id="titlesFour">Lokmal Qs-Combi</h4><div class="available">Available</div><main id="detailsFour" style="display: none;">Lokmal</main><p id="primalfour">₦1800</p></div>
+        <div class="col-4"><img src="images/galleryOne.png" onclick="preMalOne()" id="fphotos"><h4 id="titlesOne" >La-Tesen by 12</h4><div class="available">Available</div><main id="detailsOne" style="display: none;">Made Available</main><p id="pricreone">₦1500</p></div>
+        <div class="col-4" ><img src="images/galleryOne.png" onclick="preMalTwo()" id="fphotosone"><h4 id="titlesTwo">Lysunate Forte</h4><div class="available">Available</div><main id="detailsTwo" style="display: none;">Made Malaria</main><p id="pricretwo">₦3000</p></div>
+        <div class="col-4"><img src="images/galleryOne.png" onclick="preMalThree()" id="fphotostwo"><h4 id="titlescreThree">Amatem Softgel Forte by 6</h4><div class="available">Available</div><main id="detailsThree" style="display: none;">Amatem</main><p id="primalthree">₦2800</p></div>
+        <div class="col-4"><img src="images/galleryOne.png" onclick="preMalFour()" id="fphotosthree"><h4 id="titlesFour">Lokmal Qs-Combi</h4><div class="available">Available</div><main id="detailsFour" style="display: none;">Lokmal</main><p id="primalfour">₦1800</p></div>
   </div>
 
     <div class="row">
-        <div class="col-4"><img src="https://airmedng.com/wp-content/uploads/2024/02/P-Alaxin-TS-.jpg" onclick="preMalFive()" id="fphotosfour"><h4 id="titlesFive">P-Alaxin TS</h4><div class="available">Available</div><main id="detailsFive" style="display: none;">P-alaxin</main><p id="primalfive">₦2200</p> </div>
-        <div class="col-4"><img src="https://www.geneithpharm.com/wp-content/uploads/2023/08/Coatal-Tablets-20-by-120-by-24-c-400x400.png" onclick="preMalSix()" id="fphotosfive"><h4 id="titlesSix">Coatal Tablets by 24</h4><div class="available">Available</div><main id="detailsSix" style="display: none;">Coatal</main><p id="primalsix">₦1000</p></div>
-        <div class="col-4"><img src="images/galleryOne.png" onclick="preMalSeven()" id="fphotossix"><h4 id="titlesSeven">Metherine Tablet</h4><div class="available">Available</div><main id="detailsSeven" style="display: none;">Metherine</main><p id="primalseven">₦1000</p></div>
+        <div class="col-4"><img src="images/galleryOne.png" onclick="preMalFive()" id="fphotosfour"><h4 id="titlesFive">P-Alaxin TS</h4><div class="available">Available</div><main id="detailsFive" style="display: none;">P-alaxin</main><p id="primalfive">₦2200</p> </div>
+        <div class="col-4"><img src="images/galleryOne.png" onclick="preMalSix()" id="fphotosfive"><h4 id="titlesSix">Coatal Tablets by 24</h4><div class="available">Available</div><main id="detailsSix" style="display: none;">Coatal</main><p id="primalsix">₦1000</p></div>
+        <div class="col-4"><img src="images/galleryOne.png" onclick="preMalSeven()" id="fphotossix"><h4 id="titlesSeven">Metherine Tablet</h4><div class="available">Available</div><main id="detailsSeven" style="display: none;">Metherine</main><p id="primalseven">₦800</p></div>
         <div class="col-4"><img src="images/galleryOne.png" onclick="preMalEight()" id="fphotosseven"><h4 id="titlesEight">Camosunate 1-6 Years</h4><div class="available">Available</div><main id="detailsEight" style="display: none;">Camosunate</main><p id="primaleight">₦1800</p></div>
     </div>
     <div class="row">
         <div class="col-4"><img src="images/galleryOne.png" onclick="preMalNine()" id="fphotoseight"><h4 id="titlesNine">Arenax plus (4x6)</h4><div class="available">Available</div><main id="detailsNine" style="display: none;">Arenax</main><p id="primalnine">₦1200</p></div>
         <div class="col-4"><img src="images/galleryOne.png" onclick="preMalTen()" id="fphotosnine"><h4 id="titlesTen">Lumareal 80/480</h4><div class="available">Available</div><main id="detailsTen" style="display: none;">Lumareal</main><p id="primalten">₦1000</p></div>
-        <div class="col-4"><img src="https://healthplusnigeria.com/cdn/shop/files/Amatem_20Softgel_2020-120mg_20Tablets_20x_2024.webp" onclick="preMalEleven()" id="fphotosten"><h4 id="titlesEleven">Amatem Softgel by 24</h4><div class="available">Available</div><main id="detailsEleven" style="display: none;">Amatem by 24</main><p id="primaleleven">₦2200</p></div>
-        <div class="col-4"><img src="https://kanozon.com/cdn/shop/products/1201933111_200x.jpg?v=1651059665" onclick="preMalTwelve()" id="fphotoseleven"><h4 id="titlesTwelve">Lonart-DS</h4><div class="available">Available</div><main id="detailsTwelve" style="display: none;">Lonart-DS</main><p id="primaltwelve">₦2800</p></div>
+        <div class="col-4"><img src="images/galleryOne.png" onclick="preMalEleven()" id="fphotosten"><h4 id="titlesEleven">Amatem Softgel by 24</h4><div class="available">Available</div><main id="detailsEleven" style="display: none;">Amatem by 24</main><p id="primaleleven">₦2200</p></div>
+        <div class="col-4"><img src="images/galleryOne.png" onclick="preMalTwelve()" id="fphotoseleven"><h4 id="titlesTwelve">Lonart-DS</h4><div class="available">Available</div><main id="detailsTwelve" style="display: none;">Lonart-DS</main><p id="primaltwelve">₦2800</p></div>
    </div>
    <div class="row">
        <div class="col-4"><img src="images/galleryOne.png" onclick="preMalThirteen()" id="fphotostwelve"><h4 id="titlesThirteen">Kinotem Suspension</h4><div class="available">Available</div><main id="detailsThirteen" style="display: none;">Kinotem</main><p id="primalthirteen">₦2500</p></div>
@@ -461,7 +566,7 @@
        <div class="col-4"><img src="images/galleryOne.png" onclick="preMalTwenty()" id="fphotosnineteen"><h4 id="titlesTwenty">Ecomal Tablets by 6</h4><div class="available">Available</div><main id="detailsTwenty" style="display: none;">Ecomal Tablet</main><p id="primaltwenty">₦800</p></div>
     </div>
     <div class="row">
-       <div class="col-4"><img src="images/galleryOne.png" onclick="preMalTone()" id="fphotostwenty"><h4 id="titlesTone">Shal`Artem by 24</h4><div class="available">Available</div><main id="detailsTone" style="display: none;">Shal`Artem by 24</main><p id="primaltone">₦1000</p></div>
+       <div class="col-4"><img src="images/galleryOne.png" onclick="PreMalTone()" id="fphotostwenty"><h4 id="titlesTone">Shal`Artem by 24</h4><div class="available">Available</div><main id="detailsTone" style="display: none;">Shal`Artem by 24</main><p id="primaltone">₦1000</p></div>
        <div class="col-4"><img src="images/galleryOne.png" onclick="preMalTtwo()" id="fphotostone"><h4 id="titlesTtwo">Shal`Artem by 6</h4><div class="available">Available</div><main id="detailsTtwo" style="display: none;">Shal`Artem by 6</main><p id="primalttwo">₦1400</p></div>
        <div class="col-4"><img src="images/galleryOne.png" onclick="preMalTthree()" id="fphotosttwo"><h4 id="titlesTthree">Devarid Tablets by 6</h4><div class="available">Available</div><main id="detailsTthree" style="display: none;">Devarid Tablet</main><p id="primaltthree">₦1000</p></div>
        <div class="col-4"><img src="images/galleryOne.png" onclick="preMalTfour()" id="fphotostthree"><h4 id="titlesTfour">Waipa ACT by 12</h4><div class="available">Available</div><main id="detailsTfour" style="display: none;">Waipa by 12</main><p id="primaltfour">₦2200</p></div>
@@ -469,7 +574,7 @@
     <div class="row">
        <div class="col-4"><img src="images/galleryOne.png" onclick="preMalTfive()" id="fphotostfour"><h4 id="titlesTfive">Swidar Tablet by 3</h4><div class="available">Available</div><main id="detailsTfive" style="display: none;">Swidar by 24</main><p id="primaltfive">₦1600</p></div>
        <div class="col-4"><img src="images/galleryOne.png" onclick="preMalTsix()" id="fphotostfive"><h4 id="titlesTsix">P-Alaxin by 9</h4><div class="available">Available</div><main id="detailsTsix" style="display: none;">P-Alaxin by 9</main><p id="primaltsix">₦1900</p></div>
-       <div class="col-4"><img src="images/galleryOne.png" onclick="preMalTseven()" id="fphotostsix"><h4 id="titlesTseven">Maxiquine Tablets</h4><div class="available">Available</div><main id="detailsTseven" style="display: none;">Maxiquine Tablet</main><p id="primaltseven">₦1800</p></div>
+       <div class="col-4"><img src="images/galleryOne.png" onclick="PreMalTseven()" id="fphotostsix"><h4 id="titlesTseven">Maxiquine Tablets</h4><div class="available">Available</div><main id="detailsTseven" style="display: none;">Maxiquine Tablet</main><p id="primaltseven">₦1800</p></div>
     </div>
 
 
@@ -541,11 +646,6 @@
     }
  </script>
 
-
-    <script src="script.js"></script>   
-
+ <script src="script.js"></script>
 </body>
-
 </html>
-
-
